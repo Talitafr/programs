@@ -1,0 +1,80 @@
+body{
+    background-color: gray;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+   
+#first{
+    height: 300px;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(capa.jpg);
+    background-size: 800px 300px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    
+}
+h3{
+    color: white;
+     
+}
+#firstp{
+    color: white;  
+}
+#CTA{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+b{
+    text-align: center;
+}
+#second{
+    height: 200px;
+    width: 800px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+#boton{
+    height: 40px;
+    width: 150px;
+}
+#third{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.pictureuno{
+    width: 300px;
+    height: 300px;
+    background-image: url(personagens.jpg);
+    background-size: 300px 300px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.picturedois{
+    width: 300px;
+    height: 300px;
+    background-image: url(curiosidades.jpg);
+    background-size: 300px 300px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
