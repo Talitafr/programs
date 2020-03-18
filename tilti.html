@@ -11,12 +11,14 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="dosite.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
-    <nav class="indigo darken-4">
+    <section class="col s12 m12 l12" id="head">
+      <nav class="indigo darken-4">
         <div class="nav-wrapper container">
-          <a href="tilti.html" class="brand-logo">
+          <a href="startrek.html" class="brand-logo">
             <img src="logo.jpg" class="logo" alt="logo">
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -27,49 +29,108 @@
           </ul>
         </div>
       </nav>
-      <div class="card-panel blue lighten-2" id="first">
-          <h3 class="center-align">Star Trek</h3>
-          <p id="firstp" class="center-align">Para saber mais sobre essa franquia aperte o botão abaixo</p>
-          <a href="https://pt.wikipedia.org/wiki/Star_Trek" id="CTA" class="waves-effect waves-light btn-large indigo darken-4 ">História
-          </a>
-
+    </section>
+      <section class="corposite">
+        <div class="card-panel blue lighten-2" id="first">
+              <h1 class="principal">Star Trek</h1>
+              <p id="firstp">Para saber mais sobre essa franquia aperte o botão abaixo</p>
+              <a href="https://pt.wikipedia.org/wiki/Star_Trek" id="CTA" class="waves-effect waves-light btn-large indigo darken-4 ">História
+              </a>
           
-      </div>
-      <div class="container card-panel" id="second">
-        <h6><b>Mais opções</b></h6>
-        </p>
-        <br>
-        <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Personagens</a>
-        <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Curiosidades</a>
-        <a href="https://www.trekbrasilis.org/guia-de-episodios/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Episódios</a>
-      </div>
-      <div class="container card-panel" id="third">
-          
-        
-        <table>
-            <tr>
-              <td>
-                  <div class="pictureuno">
-                      <h6>Personagens</h6>
-                      <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">link</a>
-                  </div>
-                  </td>
-              <td>
-                  <div class="picturedois">
-                      <h6>Curiosidades</h6>
-                      <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">link</a>
-                  </div>
-              </td>
-            </tr>
+              
+          </div>
+          <section>
+            <div class=" container card-panel" id="second">
+                <h2 style="margin-top: 0px; margin-bottom: 0px;">Mais alternativas</h2>
+                </p>
+                <br>
+                <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Personagens</a>
+                <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Curiosidades</a>
+                <a href="https://www.trekbrasilis.org/guia-de-episodios/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Episódios</a>
+              </div>
+            </section>  
+            <section class="card-panel" id="third">
+              <!--<div class="container card-panel" id="third">-->
+                  
+                
+                <table >
+                  <tbody>  
+                    <tr>
+                          <td>
+                              <div class="pictureuno">
+                                  <h6>Personagens</h6>
+                                  <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">link</a>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="picturedois">
+                                  <h6>Curiosidades</h6>
+                                  <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">link</a>
+                              </div>
+                          </td>
+                      </tr>
+                    </tbody>
+                  
+                </table>
+            <!--</div>-->
+          </section>
+              <section class="card-panel" id="carrosel">
+                <h2 class="margin-top: 0px; margin-bottom: 0px;">Personagens</h2>
+                <h5>Alguns personagens de Star Trek</h5>
+                <div class="carousel">
+                  <a class="carousel-item" href="#one!"><img src="kirk.jpeg"></a>
+                  <a class="carousel-item" href="#two!"><img src="spock.jpeg"></a>
+                  <a class="carousel-item" href="#three!"><img src="uhura.jpeg"></a>
+                  <a class="carousel-item" href="#four!"><img src="scott.jpeg"></a>
+                  <a class="carousel-item" href="#five!"><img src="bones.jpeg"></a>
+                </div>
+              </section>
+              <section class="card-panel" id="formulario">
+                <h4>Inscreva-se</h4>
+                <form action="/meuhandler" method="GET">
+                  <fieldset><legend></legend>
+                    <p id="partedefora"><input type="email" name="ncaixa" id="icaixa" size="40" maxlength="40" placeholder="E-mail"/></p>
+                    <button type="submit" class="waves-effect waves-light btn-small indigo darken-4" >Submit</button>
+                  </fieldset>
+                </form>
+              </section>
+              <section id="foot">
+                <footer class="page-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col l4 offset-l2 s12">
 
-        </table>
-      </div>
-          <div class="carousel">
-              <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-              <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-              <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-              <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-              <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-            </div>
+                          <table>    
+                            <tr>
+                              <td><h5>Mapa do site</h5>
+
+                                  <ul>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                                  </ul>
+                              </td>
+                              <td><h5>Address</h5>
+                                <p>Avenida das Américas n° 1555 - Barra da Tijuca</p>
+
+                              </td>
+                              <td><h5>Redes sociais</h5>
+                                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-whatsapp" id="simbols"></i></a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+
+                              </td>
+                            </tr>
+                            </table>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+
+              </section>
+        </section>
+
 </body>
 </html>

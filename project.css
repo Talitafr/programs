@@ -1,80 +1,212 @@
 body{
     background-color: gray;
+    
 }
-.logo{
-    height: 60px;
-    width: 60px;
+
+section#head{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+}
+
+.corposite{
+    text-align: center;
+}
+
+@font-face{
+    font-family: 'Startrek';
+    src: url("sitefonte.TTF");
+}
+
+
+a.brand-logo{
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+}
+img.logo{
+    height: 100%;
+    width: 20%;
+    margin-left: auto;
 }
    
 #first{
-    height: 300px;
-    width: 800px;
+    height: 50vh;
+    width: 100%;
     justify-content: center;
     margin: 0 auto;
     background-image: url(capa.jpg);
-    background-size: 800px 300px;
+    background-size: 100% 100%;
     padding-top: 50px;
     padding-left: 100px;
-    padding-bottom: 100px;
-    padding-right: 100px;
+
+
     
 }
-h3{
+
+h1.principal{
+    width: 100%;
+    height: 17.69%;
+    text-align: center;
+    margin: auto;
     color: white;
-     
+    font-family: 'Startrek';
+
 }
-#firstp{
-    color: white;  
+
+     
+
+p#firstp{
+    color: white;
+    width: 100%;
+    height: 17.69%;
+
 }
 #CTA{
-    width: 100px;
-    height: 50px;
-    display: flex;
+    width: 15.87vw;
+    height: 7vh;
+    display: inline-block;
     justify-content: center;
     margin: 0 auto;
     color: white;
 }
-b{
-    text-align: center;
+
+h2,h4,h6{
+    font-family: 'Startrek';
 }
 #second{
-    height: 200px;
-    width: 800px;
-    padding-top: 50px;
+    height: 10%;
+    width: 100%;
+    /*padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 100px;
-    padding-right: 100px;
+    padding-right: 100px;*/
     justify-content: center;
     margin: 0 auto;
     text-align: center;
 }
 #boton{
-    height: 40px;
-    width: 150px;
-}
-#third{
-    width: 800px;
-    height: 400px;
-    margin: 0 auto;
+    width: 15.87vw;
+    height: 7vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 
+h5{
+    font-family: 'Startrek';
+    margin-bottom: 50px;
+    height: 5.55%;
+    margin: auto;
+}
+
+#third{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: silver;
+}
+tbody{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+td{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .pictureuno{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     background-image: url(personagens.jpg);
-    background-size: 300px 300px;
+    background-size: 100% 100%;
     color: white;
     padding-top: 200px;
     padding-left: 100px;
     padding-right: 50px;
 }
+
 .picturedois{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     background-image: url(curiosidades.jpg);
-    background-size: 300px 300px;
+    background-size: 100% 100%;
     color: white;
     padding-top: 200px;
     padding-left: 50px;
     padding-right: 100px;
+    max-width: 100%;
+}
+#carrosel{
+    width: 100%;
+    height: 450px;
+    margin:  auto;
+    text-align: center;
+    box-shadow: 1% black;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+    line-height: 100px;
+    display: inline-block;
+    justify-content: center;
+}
+div.carousel{
+    display: block;
+    width: 100%;
+    height: 55%;
+    text-align: left;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formulario{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
+fieldset{
+    display: inline-block;
+    text-align: left;
+}
+
+input#icaixa{
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    margin-left: auto;
+}
+
+p#partedefora{
+    width: 70%;
+    height: 35%;
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+td > li >a{
+    background-color: teal;
+}
+
+td p{
+    font-family: Arial;
+
 }
